@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+#container {
+  display: flex;
+  gap: 20px;
+}
+#post-list {
+  width: 30%;
+  border-right: 1px solid #ccc;
+}
+#post-detail {
+  width: 70%;
+}
+.post-title {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.hidden {
+  display: none;
+}
